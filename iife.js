@@ -2,7 +2,7 @@
 // This helps in creating a private scope for variables, preventing them from polluting the global scope.
 
 
-
+// Method 1 : without Name
 var x = 8;
 
 (() => {
@@ -14,3 +14,14 @@ var x = 8;
 
 console.log(foo);
 console.log(x);
+
+
+// Method 2 : with func name
+(function sayName(){
+    console.log('Please say my name!!');
+})();
+
+// Method 3: with params
+(function sayItAgain(name){
+    console.log('Say my name is: ', name);
+})("mozzam")
