@@ -1,3 +1,6 @@
+// Object can have properties that don't show up when you iterate through object using for...in loop or using Object.keys() to get an array of property names.
+// This properties is know as non-enumerable properties.
+
 const person = {
     name: "mozzam",
     city: "mumbai",
