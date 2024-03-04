@@ -14,6 +14,14 @@ function Employee(company){
 }
 
 // Prototypal Inheritance
+
+
+/*
+Employee.prototype = new Person("mozzam", 23, 5000): This line establishes a prototypal inheritance relationship.
+It sets the prototype of the Employee constructor to an instance of the Person constructor with specific values.
+This means that all objects created with Employee will inherit properties and methods from Person.
+*/
+
 Employee.prototype = new Person("mozzam", 23, 5000)
 
 var emp1 = new Employee("google")
