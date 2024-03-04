@@ -1,5 +1,5 @@
-// A closure is a function defined inside another function (called parent function) and
-// as such it has access to the variables declared and defined within its parent function's scope.
+/* A closure is a function defined inside another function (called parent function) and
+as such it has access to the variables declared and defined within its parent function's scope.*/
 
 // 1. Variable declared in its own scope
 // 2. Variable declared in its parent function's scope
@@ -11,7 +11,6 @@ function outerFunction() {
     function innerFunction() {
         console.log(outerVariable);
     }
-
     return innerFunction;
 }
 
