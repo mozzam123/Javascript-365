@@ -15,4 +15,4 @@ const mergeObj = (to, from) => {
 }
 
 
-console.log(mergeObj(person, address));
+mergeObj(person, address)
